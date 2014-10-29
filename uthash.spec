@@ -1,13 +1,14 @@
-Name:		uthash
-Version:	1.9.8
+%define oname uthash
+
+Name:		uthash-devel
+Version:	1.9.9
 Release:	1
 Summary:	A hash table for C structures
 License:	BSD
 URL:		http://troydhanson.github.io/uthash
-Source0:	https://github.com/troydhanson/%{name}/archive/v%{version}.tar.gz
-Patch0:		uthash-remove-failed-tests.patch
+Source0:	https://github.com/troydhanson/%{oname}/archive/v%{version}.tar.gz
 BuildArch:	noarch
-Provides:	%{name}-devel = %{version}-%{release}
+%rename		uthash
 
 %description
 Any C structure can be stored in a hash table using uthash. Just add a
@@ -16,8 +17,8 @@ structure to act as the key. Then use these macros to store, retrieve or
 delete items from the hash table. 
 
 %prep
-%setup -q
-%patch0 -p1
+%setup -qn %{oname}-%{version}
+%apply_patches
 
 %build
 
