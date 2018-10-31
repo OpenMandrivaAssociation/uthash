@@ -2,7 +2,7 @@
 
 Name:		uthash-devel
 Version:	1.9.9
-Release:	3
+Release:	4
 Summary:	A hash table for C structures
 License:	BSD
 URL:		http://troydhanson.github.io/uthash
