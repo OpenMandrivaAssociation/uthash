@@ -1,7 +1,7 @@
 %define oname uthash
 
 Name:		uthash-devel
-Version:	1.9.9
+Version:	2.1.0
 Release:	4
 Summary:	A hash table for C structures
 License:	BSD
