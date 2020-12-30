@@ -1,8 +1,8 @@
 %define oname uthash
 
 Name:		uthash-devel
-Version:	2.1.0
-Release:	4
+Version:	2.2.0
+Release:	1
 Summary:	A hash table for C structures
 License:	BSD
 URL:		http://troydhanson.github.io/uthash
