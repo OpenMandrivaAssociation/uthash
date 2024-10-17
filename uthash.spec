@@ -5,7 +5,7 @@ Version:	2.3.0
 Release:	1
 Summary:	A hash table for C structures
 License:	BSD
-URL:		http://troydhanson.github.io/uthash
+URL:		https://troydhanson.github.io/uthash
 Source0:	https://github.com/troydhanson/%{oname}/archive/v%{version}.tar.gz
 BuildArch:	noarch
 %rename		uthash
